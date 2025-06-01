@@ -6,7 +6,7 @@ on:
     branches:
       - website
     paths:
-      - .github/workflows/labels.yml
+      - .github/labels.yml
       - .github/workflows/github-label-sync.yml
   workflow_dispatch:
 
