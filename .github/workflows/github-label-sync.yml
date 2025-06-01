@@ -1,4 +1,3 @@
-# .github/workflows/github-label-sync.yml
 name: github-label-sync
 
 on:
@@ -11,7 +10,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  sync-labels:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - uses: r7kamura/github-label-sync-action@v0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          config_file: .github/labels.yml
