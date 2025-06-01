@@ -3,7 +3,7 @@ name: Sync GitHub Labels
 on:
   push:
     branches:
-      - main
+      - website
 
 jobs:
   sync-labels:
