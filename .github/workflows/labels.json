@@ -1,0 +1,28 @@
+[
+  { "name": "feature", "color": "1D76DB", "description": "New feature to be implemented | Nieuwe functionaliteit toevoegen" },
+  { "name": "enhancement", "color": "84b6eb", "description": "Improvement to an existing feature | Verbetering van bestaande functionaliteit" },
+  { "name": "bug", "color": "D73A4A", "description": "Something isn't working | Er werkt iets niet goed (bug)" },
+  { "name": "refactor", "color": "FBCA04", "description": "Code cleanup or structure change | Code herschrijven zonder functionaliteit te wijzigen" },
+
+  { "name": "test", "color": "5319E7", "description": "Adding or improving tests | Testen toevoegen of verbeteren" },
+  { "name": "QA", "color": "BFDADC", "description": "Quality assurance or production issue | Kwaliteitscontrole of productieprobleem" },
+
+  { "name": "UI", "color": "0E8A16", "description": "User Interface changes | Aanpassingen aan gebruikersinterface" },
+  { "name": "UX", "color": "006B75", "description": "User experience improvements | Verbetering van de gebruikservaring" },
+  { "name": "responsive", "color": "FF8C00", "description": "Mobile/responsive layout fixes | Aanpassingen voor mobiel of responsive gedrag" },
+
+  { "name": "database", "color": "5319E7", "description": "Database schema or query changes | Wijzigingen aan D1-database of SQL-query’s" },
+  { "name": "auth", "color": "8A2BE2", "description": "Authentication logic or security | Authenticatie en beveiligingslogica" },
+  { "name": "api", "color": "0052CC", "description": "Public/private API changes or improvements| Wijzigingen of toevoegingen aan de API" },
+
+  { "name": "documentation", "color": "0075CA", "description": "Changes to docs or README | Aanpassingen aan documentatie of README" },
+  { "name": "discussion", "color": "CCCCCC", "description": "Topic or decision that needs team input | Bespreekpunt of beslissing met het team" },
+  { "name": "blocked", "color": "E4E669", "description": "Blocked by another issue | Geblokkeerd door andere taak" },
+  { "name": "wontfix", "color": "000000", "description": "Issue won't be resolved | Wordt bewust niet opgelost" },
+  { "name": "duplicate", "color": "cfd3d7", "description": "Same as another existing issue | Dubbele issue, al gemeld" },
+  { "name": "help wanted", "color": "128A0C", "description": "Extra help or input needed | Hulp of input van anderen gewenst" },
+
+  { "name": "priority: high", "color": "B60205", "description": "Needs immediate attention | Hoge prioriteit, snel oppakken" },
+  { "name": "priority: medium", "color": "D93F0B", "description": "Important but not urgent | Normale prioriteit" },
+  { "name": "priority: low", "color": "E4E669", "description": "Can be picked up later | Lage prioriteit, geen haast" }
+]
