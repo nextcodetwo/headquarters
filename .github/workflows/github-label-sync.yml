@@ -4,7 +4,7 @@ name: github-label-sync
 on:
   push:
     branches:
-      - main
+      - website
     paths:
       - .github/workflows/labels.yml
       - .github/workflows/github-label-sync.yml
